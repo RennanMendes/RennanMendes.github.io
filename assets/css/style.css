@@ -1,0 +1,16 @@
+.foto-perfil{
+    border-radius: 90%;
+    max-width: 200px;
+    border:1px solid black
+}
+
+body{
+    background-color: #f7f7f7;
+}
+
+
+#menu li a{
+    text-decoration: none;
+    color: black;
+}
+
