@@ -14,6 +14,19 @@ html {
   color: rgba(0, 0, 0, 0.5);
 }
 
+.nav-linkedin {
+  padding: 0;
+  font-size: 1.25rem;
+  line-height: 2.5rem;
+  color: #0e76a8;
+}
+
+.nav-linkedin:hover,
+.nav-linkedin:focus,
+.active .nav-linkedin {
+  color: #0e76a8;
+}
+
 .nav-link:hover,
 .nav-link:focus,
 .active .nav-link {
@@ -48,13 +61,14 @@ html {
   filter: grayscale(100%);
 }
 
-#menu li a {
+footer a:not(.nav-link) {
+  color: inherit;
+  border-bottom: 1px dashed;
   text-decoration: none;
-  color: black;
+  cursor: pointer;
 }
 
-
-footer a:not(.nav-link) {
+footer a:not(.nav-linkedin) {
   color: inherit;
   border-bottom: 1px dashed;
   text-decoration: none;

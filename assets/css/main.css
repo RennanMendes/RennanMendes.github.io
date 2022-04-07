@@ -83,11 +83,26 @@ html {
   color: rgba(0, 0, 0, 0.5);
 }
 
+.nav-linkedin {
+  padding: 0;
+  font-size: 1.25rem;
+  line-height: 2.5rem;
+  color: #0e76a8;
+}
+
 .nav-link:hover,
 .nav-link:focus,
 .active .nav-link {
   color: rgba(0, 0, 0, 0.8);
 }
+
+.nav-linkedin:hover,
+.nav-linkedin:focus,
+.active .nav-linkedin {
+  color: #0e76a8;
+}
+
+
 
 .nav-item+.nav-item {
   margin-left: 1rem;
@@ -112,21 +127,13 @@ html {
   margin-right: auto;
 }
 
-#menu li a {
-  text-decoration: none;
-  color: black;
-}
-
-
-
-
 /* .avatar img {
   /* Safari 6.0 - 9.0 */
 /*filter: grayscale(100%); } */
 
 footer a:not(.nav-link) {
   color: inherit;
-  border-bottom: 1px dashed;
+  
   text-decoration: none;
   cursor: pointer;
 }
